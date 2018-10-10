@@ -1,0 +1,18 @@
+{
+  "presets": [
+    "react-app"
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+    "react-flow-props-to-prop-types",
+    ["import", {
+      "libraryName": "antd",
+      "libraryDirectory": "es",
+      "style": true
+    }],
+    ["styled-components", {
+      "displayName": true
+    }],
+    "lodash"
+  ]
+}
