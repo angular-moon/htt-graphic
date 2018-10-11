@@ -59,11 +59,8 @@ export default {
     show: false,
     top: 80,
   },
-  xAxis: [makeAxis('复杂(complexity)', 'end', true), makeAxis('简洁(simplicity)', 'start')],
-  yAxis: [
-    makeAxis('饱满(muscular surface)', 'end', true),
-    makeAxis('棱角(angular surface)', 'start'),
-  ],
+  xAxis: [makeAxis('复杂', 'end', true), makeAxis('简洁', 'start')],
+  yAxis: [makeAxis('饱满', 'end', true), makeAxis('硬朗', 'start')],
   legend: [
     {
       type: 'scroll',
