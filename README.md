@@ -17,6 +17,6 @@ how to run:
 
 _____
 
-### previwe
+### preview
 
-![previwe](image/preview.png)
+![preview](image/preview.png)
