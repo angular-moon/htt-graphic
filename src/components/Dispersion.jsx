@@ -20,10 +20,7 @@ function Dispersion({ dispersion }: Props) {
   return (
     <Label>
       离散度:
-      <Value>{dispersion[0]}</Value>
-      <Name>(htt)</Name>
-      <Value>{dispersion[1]}</Value>
-      <Name>(moon)</Name>
+      <Value>{dispersion}</Value>
     </Label>
   );
 }
